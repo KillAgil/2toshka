@@ -1,0 +1,44 @@
+.todo-filter__box {
+  display: flex;
+  margin: 0 -2.5px;
+  padding: 10px 15px;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #726d6d;
+  overflow: hidden;
+}
+
+.todo-filter__box.hidden {
+  display: none;
+}
+
+.todo-filter__box .btn {
+  margin: 0 2.5px;
+  padding: 2px 5px;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  font-size: 12px;
+  background-color: transparent;
+  color: #726d6d;
+  outline: none;
+
+  transition: 0.2s;
+}
+
+.todo-filter__box .btn:hover {
+  border-color: #726d6d;
+}
+
+.todo-filter__box .btn.btn--focus {
+  border: 1px solid rgba(163, 158, 158, 0.733);
+}
+
+.todo-filter__filters {
+  margin: 0 -45px 0 0;
+}
+
+.todo-filter__comp-clear .btn {
+  margin: 0;
+  padding: 2px 0;
+}
+

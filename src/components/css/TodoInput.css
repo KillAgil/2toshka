@@ -1,0 +1,37 @@
+.todo-input__box {
+  padding: 10px 15px;
+  border-bottom: 2px solid #dcdcdc75; 
+}
+
+.todo-input__box.todo-input__box--edit-todo {
+  padding: 0;
+  flex-grow: 1;
+}
+
+.todo-input__field {
+  width: 100%;
+  font-size: 20px;
+  border: none; 
+  outline: none;
+  color: #726d6d;
+}
+
+.todo-input__field::placeholder {
+  font-style: italic;
+  color: #dcdcdcc4;
+} 
+
+.todo-input__field::-moz-placeholder {
+  font-style: italic;
+  color: #dcdcdcc4;
+} 
+
+.todo-input__field::-ms-input-placeholder {
+  font-style: italic;
+  color: #dcdcdcc4;
+} 
+
+.todo-input__field::-webkit-input-placeholder {
+  font-style: italic;
+  color: #dcdcdcc4;
+} 
